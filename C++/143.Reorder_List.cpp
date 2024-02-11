@@ -14,6 +14,7 @@ public:
             curr=curr->next;
         }
 
+        
         //stack to store the second half of the elements of the ll
         stack<ListNode*> s;
         curr=head;
