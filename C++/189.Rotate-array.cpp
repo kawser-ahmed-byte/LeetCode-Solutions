@@ -9,7 +9,7 @@ public:
         for (int i = 0, j = n - 1; i < j; i++, j--) {
             swap(nums[i], nums[j]);
         }
-       // then we reverse the set of elements sized k for example [7 6 5 4 3 2 1] = [ 5 6 7 4 3 2 1] 
+         // then we reverse the set of elements sized k for example [7 6 5 4 3 2 1] = [ 5 6 7 4 3 2 1] 
         for (int i = 0, j = k - 1; i < j; i++, j--) {
             swap(nums[i], nums[j]);
         }
